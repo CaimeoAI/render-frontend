@@ -31,7 +31,7 @@ function Adduser(){
             
         }
         try{
-            axios.post('http://localhost:5000/add',userdata);
+            axios.post('https://render-backend-xz3j.onrender.com/add',userdata);
             setuser({
                 Name:"",
                 Email:"",

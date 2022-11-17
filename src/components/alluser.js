@@ -8,7 +8,7 @@ function Getallusers(props){
     })
     useEffect(()=>{
         try{
-            axios.get('http://localhost:5000/getallusers').then(res=>{
+            axios.get('https://render-backend-xz3j.onrender.com/getallusers').then(res=>{
                 setuser({
                     students:res.data
                 });
